@@ -67,7 +67,7 @@
         $(function () {
             $('.con div img').attr('ondragstart', 'return false')
             for (var i = 0; i < $('.con div').length; i++) {
-                $('.con div').eq(i).css({'transform': 'rotateY(' + (360 / 11 * (i)) + 'deg) translateZ(350px)'}).append("<img src='img/" + (i + 1) + ".jpg'/>");
+                $('.con div').eq(i).css({'transform': 'rotateY(' + (360 / 11 * (i)) + 'deg) translateZ(350px)'}).append("<img src='./img/" + (i + 1) + ".jpg'/>");
             }
 
             var sum = 0, num = -10;
